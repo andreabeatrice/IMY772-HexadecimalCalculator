@@ -169,7 +169,8 @@ describe("Testing the go() function", () => {
     expect(c.go("EA", "8", "div")).toBe("1D");
   });
 
-  test("Result > 6 digits", () => {
+  test("Result > 6 digits ", () => {
+    //this is not possible. the highest possible result is multipling FFF by FFF, which is still a hexadecimal value less than 7 digits
     let c = new Calculator();
     expect(c.go("FFF", "FFF", "mul")).toBe("FFE001");
   });

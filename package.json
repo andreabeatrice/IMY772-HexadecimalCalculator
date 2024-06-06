@@ -1,0 +1,17 @@
+{
+  "name": "imy772-hexadecimalcalculator",
+  "version": "1.0.0",
+  "description": "The calculator application should be able to perform basic arithmetic functions (addition, subtraction, multiplication and division) on a set of hexadecimal numbers.",
+  "private": true,
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

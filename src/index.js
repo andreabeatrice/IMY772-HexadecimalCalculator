@@ -9,3 +9,7 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+module.exports = {
+  index: component(),
+};

@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "The calculator application should be able to perform basic arithmetic functions (addition, subtraction, multiplication and division) on a set of hexadecimal numbers.",
   "private": true,
+  "transform": {
+    "\\.[jt]sx?$": "babel-jest",
+    "\\.css$": "some-css-transformer"
+  },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "lodash": "^4.17.21",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack"
   },
   "keywords": [],

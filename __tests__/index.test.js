@@ -11,9 +11,9 @@ test("use jsdom in this test file", async () => {
   expect(element).not.toBeNull();
 });
 
-test("expect index.js to return HTML: <div>Hello webpack</div>", async () => {
+test("expect index.js to return empty div", async () => {
   const element = document.createElement("div");
-  element.innerHTML = "Hello webpack";
+  element.innerHTML = "";
 
   expect(index).toStrictEqual(element);
 });
